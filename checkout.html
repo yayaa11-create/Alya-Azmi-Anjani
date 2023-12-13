@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Yayaa E-Commerce</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">		
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<input type="text" class="input-block-level search-query" Placeholder="MINI VACUUM CLEANER">
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="#">Akun</a></li>
+							<li><a href="cart.html">Keranjang</a></li>
+							<li><a href="checkout.html">Transaksi</a></li>					
+							<li><a href="register.html">Masuk</a></li>			
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="./products.html">Rekomendasi</a>					
+								<ul>
+									<li><a href="./products.html">Hijab</a></li>									
+									<li><a href="./products.html">Perawatan Wajah</a></li>
+									<li><a href="./products.html">Atasan</a></li>									
+								</ul>
+							</li>															
+							<li><a href="./products.html">Elektronik</a>
+							    <ul>
+									<li><a href="./products.html">Mesin Jahit & Aksesoris</a></li>									
+									<li><a href="./products.html">Setrika & Mesin Uap</a></li>
+									<li><a href="./products.html">Purifier & Humidifier</a></li>									
+								</ul>
+							</li>			
+							<li><a href="./products.html">Perlengkapan Rumah</a>
+								<ul>									
+									<li><a href="./products.html">Renovasi Rumah</a></li>
+									<li><a href="./products.html">Perkakas</a></li>
+									<li><a href="./products.html">Alat Peeliharaan Rumah</a></li>
+								</ul>
+							</li>							
+							<li><a href="./products.html">Komputer & Aksesoris</a>
+							    <ul>
+									<li><a href="./products.html">Monitor</a></li>									
+									<li><a href="./products.html">Penyimpanan Data</a></li>
+									<li><a href="./products.html">Softwaqre</a></li>									
+								</ul>
+							</li>
+							<li><a href="./products.html">Perawatan & Kecantikan</a>
+							    <ul>
+									<li><a href="./products.html">Perawatan Tubuh</a></li>									
+									<li><a href="./products.html">Perawatan Tangan</a></li>
+									<li><a href="./products.html">Perawatan Kaki</a></li>									
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>				
+			<section class="header_text sub">
+			<img class="pageBanner" src="themes/images/pageBanner.png" alt="New products" >
+				<h4><span>Transaksi</span></h4>
+			</section>	
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">
+						<div class="accordion" id="accordion2">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pilih Pembayaran</a>
+								</div>
+								<div id="collapseOne" class="accordion-body in collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Pelanggan Baru</h4>
+												<p>Mulailah membuat akun Anda, dengan membuat akun Anda akan dapat berbelanja lebih cepat, mengetahui status pesanan terkini, dan melacak pesanan yang telah Anda buat sebelumnya.</p>
+												<form action="#" method="post">
+													<fieldset>
+														<label class="radio" for="register">
+															<input type="radio" name="account" value="register" id="register" checked="checked">Daftar
+														</label>
+														<label class="radio" for="guest">
+															<input type="radio" name="account" value="guest" id="guest">Masuk
+														</label>
+														<br>
+														<button class="btn btn-inverse" data-toggle="collapse" data-parent="#collapse2">Selanjutnya</button>
+													</fieldset>
+												</form>
+											 </div>
+											 <div class="span6">
+												<h4>Masuk</h4>
+												<p>Sudah Memiliki Akun?</p>
+												<form action="#" method="post">
+													<fieldset>
+														<div class="control-group">
+															<label class="control-label">Nama Pengguna</label>
+															<div class="controls">
+																<input type="text" placeholder="Masukkan Nama Pengguna Anda" id="username" class="input-xlarge">
+															</div>
+														</div>
+														<div class="control-group">
+															<label class="control-label">Kata Sandi</label>
+															<div class="controls">
+															<input type="password" placeholder="Masukkan Kata Sandi Anda" id="password" class="input-xlarge">
+															</div>
+														</div>
+														<button class="btn btn-inverse">Masuk</button>
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Akun &amp; Alamat Saya</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Informasi Akun</h4>
+												<div class="control-group">
+													<label class="control-label">Nama Lengkap</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Nomor Telepon</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>					  
+												<div class="control-group">
+													<label class="control-label">Email</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Jenis Kelamin</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Tanggal Lahir</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+											</div>
+											<div class="span6">
+												<h4>Alamat Saya</h4>
+												<div class="control-group">
+													<label class="control-label">Jalan/Nama Bangunan:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Unit/Lantai/RT/RW:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>					  
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span>Info/Patokan:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Kelurahan:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Kecamatan:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Kode Pos:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span>Kabupaten/Kota:</label>
+													<div class="controls">
+														<select class="input-xlarge">
+															<option value="1">Pilih Kota</option>
+															<option value="2">Kab. Garut</option>
+															<option value="3">Kab. Bandung</option>
+															<option value="4">Kab. Bekasi</option>
+															<option value="5">Kab. Bogor</option>
+															<option value="6">Kab. Ciamis</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span>Provinsi:</label>
+													<div class="controls">
+														<select name="zone_id" class="input-xlarge">
+															<option value="">Pilih Provinsi </option>
+															<option value="3513">Jawa Barat</option>
+															<option value="3514">Jawa Tengah</option>
+															<option value="3515">Jawa Timur</option>
+															<option value="3516">Banten</option>
+															<option value="3517">DKI Jakarta</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Konfirmasi Pesanan</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="control-group">
+												<label for="textarea" class="control-label">Ulasan</label>
+												<div class="controls">
+													<textarea rows="3" id="textarea" class="span12"></textarea>
+												</div>
+											</div>									
+											<button class="btn btn-inverse pull-right">Konfirmasi</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</section>			
+			<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Menu</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Beranda</a></li>  
+							<li><a href="./about.html">Tentang Kami</a></li>
+							<li><a href="./contact.html">Hubungi Kami</a></li>
+							<li><a href="./cart.html">Keranjang Anda</a></li>
+							<li><a href="./register.html">Masuk</a></li>							
+						</ul>					
+					</div>
+					<div class="span4">
+						<h4>Akun Anda</h4>
+						<ul class="nav">
+							<li><a href="#">Akun</a></li>
+							<li><a href="#">Riwayat Pesanan</a></li>
+							<li><a href="#">Wish List</a></li>
+							<li><a href="#">Berita</a></li>
+						</ul>
+					</div>
+					<div class="span5">
+						<p class="logo"><img src="themes/images/logo.png" class="site_logo" alt=""></p>
+						<p>Kami besar dengan kepercayaan pelanggan dan kami memiliki visi untuk mengembangkan produk kami hingga ke luar negeri.</p>
+						<br/>
+						<span class="social_icons">
+							<a class="facebook" href="#">Facebook</a>
+							<a class="twitter" href="#">Twitter</a>
+							<a class="skype" href="#">Skype</a>
+							<a class="vimeo" href="#">Vimeo</a>
+						</span>
+					</div>					
+				</div>	
+			</section>
+			<section id="copyright">
+				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
+			</section>
+		</div>
+		<script src="themes/js/common.js"></script>
+    </body>
+</html>
